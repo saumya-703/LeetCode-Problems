@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class newfile {
+public class group__anagrams {
         public static List<List<String>> group_anagrams(String str[]){
         
         //List to all the possible groups in the list

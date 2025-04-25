@@ -23,6 +23,8 @@ public class longest_subarray {
     }
     public static void main(String[] args) {
         int arr[]= {2, 3, 5, 1, 9};
+        //edge case is here
+        //int arr[]={1,2,3,4,5};// where target = 9 -this is why shrinking is required;
         int k=10;
         System.out.println(longest_subarr(arr, k));
     }
